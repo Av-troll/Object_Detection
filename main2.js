@@ -1,3 +1,4 @@
+
 var img = "";
 var status = "";
 function setup(){
@@ -14,7 +15,7 @@ function modelLoaded(){
    objectDetector.detect(img, gotResults);
 }
 function preload(){
-    img = loadImage("dog_cat.jpg");
+    img = loadImage("SChoolItems.jpg");
 }
 function draw(){
     image(img,0,0,640,420);

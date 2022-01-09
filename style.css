@@ -1,6 +1,7 @@
 body{
     background-size: cover;
     background-position:center;
+
 }
 
 
@@ -19,4 +20,11 @@ font-size: 18px;
 canvas{
     border-radius: 10px;
     box-shadow: 10px 10px 10px grey;
+}
+
+.back{
+    position: fixed;
+   margin-top: 550px;
+   font-size: 18px;
+
 }
